@@ -1,0 +1,90 @@
+.header-wrapper{
+  height: 90px;
+  font-size: 2rem;
+  background: #1E88E5;
+  color:white;
+}
+.post-header{
+  max-width: 900px;
+  padding:20px;
+  margin: auto;
+}
+.post-title,.url-link {
+  display: inline-block;
+  padding-top:10px;
+  padding-bottom:5px;
+}
+.url-link i{
+    font-size: 1.8rem;
+    color: #DDD;
+    padding: 0 10px;
+}
+.editor-wrapper{
+  max-width: 900px;
+  background: white;
+  padding:20px;
+  margin: auto;
+  min-height: 600px;
+  box-shadow: 0 0 15px #DDD;
+  margin-top:50px;
+}
+.editor-header{
+  padding: 30px;
+  color:#333333;
+}
+.editor-header input, .editor-bottom input{ 
+  max-width: 100%;
+  min-width: 100%;
+  border: #DDD thin solid;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top:8px; 
+}
+.post-tool-bar{
+  padding: 30px;
+  border-bottom: #DDD solid thin;
+}
+.editor-text{
+  padding: 30px;
+  color:black;
+  min-height: 300px;
+}
+.editor-bottom{
+  padding:30px; 
+  text-align: left;
+  border-top: #DDD solid thin;
+}
+.editor-bottom textarea{
+  max-width: 100%;
+  min-width: 100%;
+  border: #DDD thin solid;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top:8px; 
+}
+
+#htmlSource textarea{
+  background: white;
+  width: 100%;
+  border:none;
+  height: auto;
+  overflow: auto;
+  outline: none;
+  padding: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#htmlSource{
+  min-height: 300px;
+  padding: 10px;
+}
+#viewEditor{
+  min-height: 300px;
+}
+.rdw-editor-main{
+    padding: 10px;
+}
+#editSubmit, #editCancel{
+    width: 100%;
+}
