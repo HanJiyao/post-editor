@@ -1,20 +1,20 @@
-.header-wrapper{
+.headerWrapper{
   height: 90px;
   font-size: 2rem;
   background: #1E88E5;
   color:white;
 }
-.post-header{
+.postHeader{
   max-width: 900px;
   padding:20px;
   margin: auto;
 }
-.post-title,.url-link {
+.postTitle {
   display: inline-block;
   padding-top:10px;
   padding-bottom:5px;
 }
-.url-link i{
+.urlLink {
     font-size: 1.8rem;
     color: #DDD;
     padding: 0 10px;

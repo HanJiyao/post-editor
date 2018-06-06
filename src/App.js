@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import PostEditor from './Editor';
+import EditorPage from './EditorPage';
 
 class App extends Component {
   render() {
     return (
-      <PostEditor/>
+      <EditorPage />
     );
   }
 }
